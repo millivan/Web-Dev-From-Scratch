@@ -9,7 +9,12 @@
     border: none;
     font-weight: bold;
     cursor: pointer;
+    transition: background-color 0.5s;
   }
+  .apply:hover {
+    background-color: rgb(7, 67, 127);
+  }
+
   .save {
     border-color: rgb(10, 102, 194);
     border-style: solid;
@@ -22,6 +27,11 @@
     color: rgb(10, 102, 194);
     background-color: white;
     border-radius: 20px;
+    transition: border-width 0.5s, background-color 0.5s;
+  }
+  .save:hover {
+    border-width: 2px;
+    background-color: rgb(165, 189, 213);
   }
 </style>
 
