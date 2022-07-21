@@ -1,0 +1,15 @@
+.amazon-button {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.amazon-button:hover {
+  background-color: rgb(222, 196, 3);
+}

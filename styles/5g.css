@@ -1,0 +1,24 @@
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 500px;
+}
+.heading {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.tag1 {
+  color: gray;
+  font-weight: normal;
+}
+.body1 {
+  margin-bottom: 20px;
+}
+.tag2 {
+  color: rgb(50, 143, 235);
+  cursor: pointer;
+}
+.tag2:hover {
+  text-decoration: underline;
+}

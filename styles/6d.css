@@ -1,0 +1,19 @@
+p {
+  font-family: Montserrat;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.title {
+  font-weight: bold;
+  font-size: 30px;
+}
+.description {
+  margin-top: 10px;
+}
+.direct {
+  cursor: pointer;
+}
+.direct:hover {
+  text-decoration: underline;
+}
