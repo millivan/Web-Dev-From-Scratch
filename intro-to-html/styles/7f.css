@@ -1,0 +1,45 @@
+p {
+  font-family: Arial;
+  margin: 0px;
+  color: gray;
+  font-size: 14px;
+}
+button {
+  margin: 0px;
+}
+input {
+  margin: 0px;
+}
+
+.email {
+  margin-bottom: 5px;
+}
+.empty {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px;
+  width: 340px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.disclaimer {
+  margin-bottom: 10px;
+}
+.agree {
+  color: white;
+  background-color: rgb(34, 99, 220);
+  width: 340px;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.agree:hover {
+  background-color: rgb(76, 136, 247);
+}
+.agree:active {
+  background-color: rgb(126, 170, 253);
+}
