@@ -1,0 +1,77 @@
+.subscribe-button {
+  align-items: center;
+  background-color: rgb(204, 0, 0);
+  color: white;
+  font-family: Roboto, Noto, sans-serif;
+  font-size: 14px;
+  font-stretch: 100%;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin: 4px;
+  transition: opacity 0.5s;
+  vertical-align: top;
+}
+.subscribe-button:hover {
+  opacity: 0.65;
+}
+.subscribe-button:active {
+  opacity: 0.3;
+}
+
+.join-button {
+  background-color: white;
+  color: rgb(41, 118, 211);
+  border-color: rgb(41, 118, 211);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  cursor: pointer;
+  margin: 4px;
+  transition: background-color 0.5s, color 0.5s, opacity 0.5s;
+  vertical-align: top;
+}
+.join-button:hover {
+  background-color: rgb(41, 118, 211);
+  color: white;
+}
+.join-button:active {
+  opacity: 0.7;
+}
+
+.tweet-button {
+  background-color: rgb(0, 153, 255);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 4px;
+  cursor: pointer;
+  transition: box-shadow 0.5s, opacity 0.5s;
+  vertical-align: top;
+}
+.tweet-button:hover {
+  box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.tweet-button:active {
+  opacity: 0.5;
+}
+
+/* button is CSS Selector, 
+  background-color is CSS Property,
+  red is CSS value 
+  .subscribe-button is targeting class instead of individual elements
+  multiple elements can have the same class */
