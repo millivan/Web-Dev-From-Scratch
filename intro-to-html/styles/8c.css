@@ -1,0 +1,22 @@
+.google {
+  font-family: Roboto;
+  border: none;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 14px;
+  width: 300px;
+  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.5);
+  margin-left: 60px;
+  outline: none;
+}
+.logo {
+  height: 100px;
+  width: 220px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  margin-left: 100px;
+  margin-bottom: 0px;
+}

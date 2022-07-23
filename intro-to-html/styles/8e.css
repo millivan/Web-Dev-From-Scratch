@@ -1,0 +1,40 @@
+div {
+  font-family: sans-serif;
+}
+.title {
+  margin: 0px;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.uber-input {
+  display: block;
+  outline: none;
+  background-color: rgba(209, 209, 209, 0.507);
+  border: none;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 300px;
+  font-size: 12px;
+}
+button {
+  margin-top: 20px;
+  font-size: 12px;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: padding-left 0.4s, padding-right 0.4s;
+}
+button:hover {
+  padding-left: 49px;
+  padding-right: 49px;
+}
+.request {
+  color: white;
+  background-color: black;
+}

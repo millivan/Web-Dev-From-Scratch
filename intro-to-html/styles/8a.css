@@ -1,0 +1,10 @@
+.default {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-color: rgba(0, 0, 0, 0.5);
+  border-width: 1px;
+  border-style: solid;
+  margin: 10px;
+  width: 100px;
+}
