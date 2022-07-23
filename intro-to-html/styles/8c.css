@@ -1,22 +1,33 @@
+div {
+  text-align: center;
+  font-family: sans-serif;
+}
 .google {
-  font-family: Roboto;
   border: none;
   border-radius: 15px;
   padding-left: 10px;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  font-size: 14px;
-  width: 300px;
-  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.5);
-  margin-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  width: 500px;
+  box-shadow: 0 1px 10px 1px rgba(0, 0, 0, 0.5);
   outline: none;
+  margin-bottom: 30px;
 }
 .logo {
-  height: 100px;
-  width: 220px;
+  height: 150px;
+  width: 300px;
   object-fit: cover;
   object-position: center;
-  display: block;
-  margin-left: 100px;
-  margin-bottom: 0px;
+}
+.google-button {
+  margin: 6px;
+  border: none;
+  background-color: rgb(245, 245, 245);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  font-size: 16px;
 }
