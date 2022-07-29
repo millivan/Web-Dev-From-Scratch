@@ -1,0 +1,31 @@
+p {
+  font-family: Helvetica;
+}
+.container {
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.5);
+  border-style: solid;
+  max-width: 400px;
+  border-radius: 6px;
+}
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.notifications {
+  background-color: blue;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-weight: bold;
+}
