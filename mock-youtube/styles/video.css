@@ -1,0 +1,45 @@
+.thumbnail {
+  width: 100%;
+  /* height: 300px;
+        object-fit: cover; contain
+        object-position: right; */
+}
+.video-title {
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 0;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+.video-author,
+.video-stats {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+  /* display == html element types
+        -> block (default for p; whole line for the paragraph),
+        inline-block (only as much space as needed), inline */
+}
+.video-author {
+  margin-bottom: 4px;
+}
+.video-info {
+  display: inline-block;
+  width: 200px;
+}
+.profile-picture {
+  border-radius: 50px;
+  width: 40px;
+}
+.thumbnail-row {
+  margin-bottom: 12px;
+}
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 40px;
+}
