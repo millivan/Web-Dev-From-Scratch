@@ -1,0 +1,12 @@
+body {
+  height: 3000px;
+}
+.black-div {
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  position: fixed;
+  background-color: black;
+  color: white;
+}
