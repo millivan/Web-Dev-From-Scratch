@@ -32,6 +32,7 @@
 }
 .thumbnail-row {
   margin-bottom: 12px;
+  position: relative;
 }
 .video-info-grid {
   display: grid;
@@ -42,4 +43,21 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 15px;
   row-gap: 40px;
+  padding-right: 20px;
+}
+.video-time {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+  z-index: 2;
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 2px;
+  border: none;
 }
