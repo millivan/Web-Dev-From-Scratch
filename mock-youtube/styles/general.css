@@ -6,8 +6,9 @@ p {
 body {
   margin: 0;
   padding-top: 80px;
-  padding-left: 80px;
-  background-color: rgba(128, 128, 128, 0.094);
+  padding-left: 96px;
+  background-color: rgb(248, 248, 248);
+  padding-right: 24px;
 }
 div {
   font-family: Roboto, Arial;
