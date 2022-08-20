@@ -58,3 +58,13 @@ incrementLap();
 incrementLap();
 
 console.log("Laps Completed: " + lapsCompleted);
+
+let username = "per";
+let message = "You have tree new notifications";
+let messageToUser = message + ", " + username + "!";
+console.log(messageToUser);
+
+let name = "Alvin";
+let greeting = "Hi, my name is ";
+let myGreeting = greeting + name;
+console.log(myGreeting);
