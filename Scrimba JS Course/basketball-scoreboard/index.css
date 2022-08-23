@@ -1,0 +1,59 @@
+@font-face {
+  font-family: Timer;
+  src: url(Cursed_Timer_ULiL/CursedTimerULiL.ttf);
+}
+p {
+  margin: 0px;
+}
+#scoreboard {
+  display: flex;
+  width: 575px;
+
+  background: #1b244a;
+  justify-content: space-evenly;
+}
+#team-name-holder {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0px 20px 0px;
+}
+#team-name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+#score-holder {
+  display: flex;
+  background: black;
+  color: #f94f6d;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+}
+#home-score,
+#away-score {
+  font-family: Timer;
+  font-size: 90px;
+}
+#buttons-holder {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px 50px 0px;
+}
+.add-score {
+  background-color: #9aabd800;
+  border-color: #9aabd8;
+  border-radius: 5px;
+  border-width: 2px;
+  color: #9aabd8;
+  font-family: Timer;
+  border-style: solid;
+  padding: 8px 8px 8px 8px;
+  transition: background-color 0.2s;
+}
+.add-score:hover {
+  background-color: #9aabd830;
+  cursor: pointer;
+}
