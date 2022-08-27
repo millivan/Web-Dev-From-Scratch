@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="shortcut icon"
+      href="icons8-synchronize-dotted-32.png"
+      <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div id="title-holder">
+        <p id="title">
+          Generate a <span id="title-styling">random password</span>
+        </p>
+      </div>
+      <div id="description-holder">
+        <p id="description">Never use an insecure password again.</p>
+      </div>
+      <div id="generate-password-holder">
+        <button id="generate-password" onclick="renderPasswords()">
+          Generate passwords
+        </button>
+      </div>
+      <div id="custom-requirements-holder">
+        <div class="holder">
+          <p>Password length</p>
+          <input
+            type="number"
+            id="number-input"
+            onblur="storeLength()"
+            value="15"
+          />
+        </div>
+        <div class="holder">
+          <p>Symbols</p>
+          <label class="switch">
+            <input type="checkbox" id="symbols" onclick="toggleHasSymbols()" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="holder">
+          <p>Numbers</p>
+          <label class="switch">
+            <input type="checkbox" id="numbers" onclick="toggleHasNumbers()" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+      <hr class="hr" />
+      <div id="password-recommendations-holder">
+        <div
+          class="password-recommendation"
+          id="password-recommendations1"
+          onclick="copyPassword1()"
+        ></div>
+        <div
+          class="password-recommendation"
+          id="password-recommendations2"
+          onclick="copyPassword2()"
+        ></div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
