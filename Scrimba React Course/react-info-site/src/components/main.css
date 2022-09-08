@@ -1,0 +1,22 @@
+body {
+  background-color: #282d35;
+  background-image: url(../img/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position: right 80%;
+}
+.main {
+  padding: 40px 30px 0 30px;
+  color: white;
+}
+.title1 {
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+li {
+  margin: 20px;
+  font-size: 16px;
+}
+li::marker {
+  font-size: 1.4rem;
+  color: #61dafb;
+}

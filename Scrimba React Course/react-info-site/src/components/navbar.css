@@ -1,0 +1,25 @@
+.navbar {
+  background-color: #21222a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 27px;
+}
+.brand-container {
+  display: flex;
+  align-items: center;
+}
+.title {
+  color: #61dafb;
+}
+.subject {
+  color: #deebf8;
+  font-weight: 600;
+  font-size: 20px;
+}
+.react-icon {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+}
