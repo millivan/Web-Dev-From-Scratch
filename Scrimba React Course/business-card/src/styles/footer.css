@@ -1,0 +1,9 @@
+.card-footer {
+  background-color: #161619;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 72px;
+}
+footer > img {
+  height: 25px;
+}

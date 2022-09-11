@@ -1,0 +1,12 @@
+.holder {
+  margin: 0;
+  padding: 0;
+  height: 320px;
+  z-index: 0;
+}
+.prof {
+  width: 320px;
+  height: 320px;
+  object-position: 0 -40px;
+  object-fit: cover;
+}

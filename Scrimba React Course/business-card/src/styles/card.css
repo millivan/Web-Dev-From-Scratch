@@ -1,0 +1,17 @@
+body {
+  max-width: 320px;
+  border-radius: 10px;
+  margin-top: 0;
+  z-index: 100;
+}
+.card {
+  background-color: #1a1b21;
+  padding: 36px 28px;
+  z-index: 100;
+}
+.buttons-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
