@@ -1,0 +1,16 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3em;
+}
+.grid {
+  align-self: center;
+  max-width: 500px;
+}
+.title {
+  margin-bottom: 16px;
+  padding: 0;
+}
+.desc {
+  margin: 0;
+}
