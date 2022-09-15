@@ -1,0 +1,18 @@
+.Navbar--navbar {
+  background-color: #f55a5a;
+  margin: 0px;
+}
+.Navbar--image,
+.Navbar--title {
+  color: white;
+  margin: 0;
+}
+.Navbar--image {
+  margin: 0 7px;
+}
+.Navbar--brand-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}

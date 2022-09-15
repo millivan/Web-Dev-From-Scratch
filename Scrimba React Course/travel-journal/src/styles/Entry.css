@@ -1,0 +1,37 @@
+.Entry--grid {
+  display: grid;
+  grid-template-columns: 15em 1fr;
+  margin: 2em;
+  /* border: 1px solid black; */
+}
+.Entry--destination-picture {
+  height: 20em;
+  width: 15em;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.Entry--info {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  justify-content: center;
+}
+.Entry--top-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.Entry--location-pin {
+  height: 15px;
+}
+.Entry--country {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+.Entry--url {
+  color: #918e9b;
+}
+.Entry--destination {
+  font-weight: 800;
+}
