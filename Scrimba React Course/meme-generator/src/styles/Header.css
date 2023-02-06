@@ -1,0 +1,23 @@
+#Header--header {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: white;
+  padding: 0.5em 2em;
+  align-items: center;
+}
+
+#Header--logo {
+  height: 2.5em;
+}
+#Header--title {
+  font-weight: 700;
+  letter-spacing: -2px;
+  margin-left: 0.5em;
+  margin-right: auto;
+}
+#Header--subtitle {
+  font-family: Inter;
+  font-weight: 400;
+}
